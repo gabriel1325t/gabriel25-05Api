@@ -5,7 +5,7 @@ class AppController {
   constructor() {
     this.express = express(); //Cria uma nova instância do Express dentro da classe
     this.middlewares(); //Chama o método middlewares para configurar os middlewares
-    this.rutes(); //Chama o método routes para definir as rotas da API
+    this.routes(); //Chama o método routes para definir as rotas da API
   }
 
   middlewares() {
